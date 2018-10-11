@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Dotazník</title>
+</head>
+<body>
+<main>
+    <h2>Dotazník</h2>
+    <p>Pro&nbsp;zobrazení výsledků hodnocení je&nbsp;nejprve nutné vyplnit dotazník, potvrdit email a&nbsp;přihlásit se.</p>
+    <ul>
+        <li>
+            <a href="#">
+                <img src="" alt="1">
+                Vyplnit dotazník
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="" alt="2">
+                Potvrdit email
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="" alt="3">
+                Vytvořit heslo
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="" alt="4">
+                Zobrazit výsledky
+            </a>
+        </li>
+    </ul>
+
+    <form>
+        <div>
+            <label>Email</label>
+            <input type="email" title="email">
+        </div>
+        <div>
+            <label>Země</label>
+            <input type="text" title="země" placeholder="Czech Republic">
+        </div>
+        <div>
+            <label>Vaše charakteristika (hlavní zaměření)</label>
+            <input type="radio" title="charakteristika" value="do50">Zemědělská/lesnická výroba do&nbsp;50ha
+            <input type="radio" title="charakteristika" value="50-500">Zemědělská/lesnická výroba 50-500ha
+            <input type="radio" title="charakteristika" value="nad500">Zemědělská/lesnická výroba nad&nbsp;500ha
+            <input type="radio" title="charakteristika" value="dodavatel">Dodavatel technologií a&nbsp;služeb Precizního zemědělství
+            <input type="radio" title="charakteristika" value="akademie">Akademická sféra a&nbsp;výzkum
+            <input type="radio" title="charakteristika" value="verejnost">Veřejnost, spotřebitelé potravin
+            <input type="radio" title="charakteristika" value="student">Žáci a&nbsp;studenti
+        </div>
+
+        <div>
+            <h3>Způsob hodnocení</h3>
+            <div>
+                U&nbsp;vybraných metod precizního zemědělství se&nbsp;pětibodovou stupnicí hodnotí úroveň:
+                <ul>
+                    <li>technologické vyspělosti</li>
+                    <li>užitečnosti pro&nbsp;zemědělskou praxi</li>
+                </ul>
+
+                <dl> <!-- definition list -->
+                    <dt>
+                        <img src="" alt="t5">
+                        nejlepší úroveň technologické vyspělosti / propracovanosti
+                    </dt>
+                    <dd>
+                        hodnocené metody mají ověřenou funkčnost a&nbsp;provozní spolehlivost, kvalitní uživatelské
+                        rozhraní pro&nbsp;využití v&nbsp;zemědělské praxi a&nbsp;jsou hromadně / sériově vyráběny,
+                        ideálně několika výrobci.
+                    </dd>
+                    <dt>
+                        <img src="" alt="t1">
+                        nejhorší úroveň
+                    </dt>
+                    <dd>
+                        technologie založené pouze na&nbsp;teoretické úvaze.
+                    </dd>
+                    <dt>
+                        <img src="" alt="p5">
+                        nejvyšší úroveň užitečnosti pro&nbsp;praxi
+                    </dt>
+                    <dd>
+                        vlastní zkušenosti s&nbsp;výhodností z&nbsp;pohledu ekonomické efektivity, kvality
+                        i&nbsp;kvantity produkce, organizace a&nbsp;kontroly výrobního procesu, welfare apod., dále
+                        je&nbsp;také vysoce hodnoceno vnímání velikosti potenciálu hodnocené metody při&nbsp;řešení
+                        provozních nedostatků aktuálně využívaných technologií, tzn. potřeby inovace v&nbsp;dané
+                        výrobní oblasti.
+                    </dd>
+                    <dt>
+                        <img src="" alt="p1">
+                        nejhorší úroveň
+                    </dt>
+                    <dd>
+                        nejasnost způsobu využití a&nbsp;potenciálu přínosů.
+                    </dd>
+                    <dt>
+                        <img src="" alt="0">
+                        Nedovedu posoudit
+                    </dt>
+                    <dd>
+                        I toto hodnocení je&nbsp;významnou charakteristikou dané technologie, vyjadřuje její
+                        (ne)známost mezi respondenty.
+                    </dd>
+                </dl>
+                <p>
+                    Přidělení bodů vychází z&nbsp;Vašich individuálních poznatků a&nbsp;zkušeností
+                    a&nbsp;je&nbsp;i&nbsp;porovnáním s&nbsp;dalšími aktuálně hodnocenými technologiemi.
+                </p>
+
+            </div>
+        </div>
+
+        <div>
+            <label>TELEMATIKA U&nbsp;TRAKTORŮ A&nbsp;DALŠÍCH ZEMĚDĚLSKÝCH STROJŮ</label>
+            <p>1/13</p>
+            <p>Kontinuální sběr provozních údajů, jejich ukládání a&nbsp;následné vyhodnocení – např. spotřeba paliva,
+                tahová síla, prokluz, pracovní a&nbsp;nepracovní jízdy apod.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>ŘÍZENÁ JÍZDA TRAKTORŮ A&nbsp;ZEMĚDĚLSKÉ TECHNIKY PO&nbsp;POZEMKU</label>
+            <p>2/13</p>
+            <p>Volba trajektorií pohybu strojů při&nbsp;pracovních operacích na&nbsp;základě GPS&nbsp;souřadnic
+                s&nbsp;přesností v&nbsp;metrech (A-B linie, optimalizace na&nbsp;základě tvaru pozemku, pohybem
+                po&nbsp;vrstevnici apod.).</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>ŘÍZENÁ JÍZDA TRAKTORŮ A&nbsp;ZEMĚDĚLSKÉ TECHNIKY PO&nbsp;POZEMKU S&nbsp;PŘESNOSTÍ NA 2 CM</label>
+            <p>3/13</p>
+            <p>Volba trajektorií pohybu strojů při&nbsp;pracovních operacích na&nbsp;základě GPS&nbsp;souřadnic
+                a&nbsp;korekce RTK (A-B linie, optimalizace na&nbsp;základě tvaru pozemku, pohybem po&nbsp;vrstevnici,
+                jednotné kolejové řádky (CTF), apod.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>VYUŽITÍ INFORMACÍ Z&nbsp;DRUŽICOVÝCH SNÍMKŮ K&nbsp;MANAGEMENTU ROSTLINNÉ VÝROBY</label>
+            <p>4/13</p>
+            <p>Využití družicových snímků k&nbsp;monitoringu&nbsp;stavu porostů (odhad výnosu, nerovnoměrné vzcházení,
+                škody způsobené erozí, zvěří, počasím), včetně zpracování a&nbsp;interpretace výsledků.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>TVORBA APLIKAČNÍCH MAP PRO&nbsp;ZÁKLADNÍ HNOJENÍ</label>
+            <p>5/13</p>
+            <p>Systém sběru a&nbsp;zpracování dat o&nbsp;půdním bloku např. agrochemické zkoušení půd (AZP), výnosových
+                map apod., jehož výsledkem je&nbsp;aplikační mapa pro&nbsp;základní hnojení.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>AUTOMATICKÁ REGULACE DÁVKY HNOJIVA PODLE MAPY&nbsp;HNOJENÍ</label>
+            <p>6/13</p>
+            <p>Regulace dávky podle vložené mapy hnojení vytvořené na&nbsp;základě předchozích údajů o&nbsp;zásobenosti
+                živin.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>NASTAVENÍ DÁVKY HNOJENÍ PODLE OKAMŽITÉHO STAVU POROSTU</label>
+            <p>7/13</p>
+            <p>Automatické okamžité nastavení dávky hnojení podle údajů z&nbsp;optických čidel (např. N‑sensory).</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>AUTOMATICKÁ REGULACE ŘÁDKOVÉHO SETÍ PODLE MAPY&nbsp;VÝSEVU</label>
+            <p>8/13</p>
+            <p>Např. obilniny. Automatické nastavení secího stroje (výsevku, hloubky setí) podle mapy výsevu,
+                stanovištních podmínek, navádění secího stroje podle přípravy půdy.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>VYUŽITÍ DRONŮ PŘI APLIKACI PROSTŘEDKŮ OCHRANY ROSTLIN</label>
+            <p>9/13</p>
+            <p>Využití bezpilotních prostředků (UAV, dronů) především pro&nbsp;selektivní aplikaci pesticidů.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>AUTONOMNÍ NAVÁDĚNÍ ZEMĚDĚLSKÉ TECHNIKY</label>
+            <p>10/13</p>
+            <p>Automatické navádění sklízecích mlátiček podle hrany porostu, sklízecích řezaček podle rostlin, strojů
+                na&nbsp;zpracování půdy podle rostlin (plečky), podle reliéfu pozemku (hrůbky) atd.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>MAPOVÁNÍ VÝNOSŮ PŘI SKLIZNI OBILNIN A&nbsp;OLEJNIN</label>
+            <p>11/13</p>
+            <p>Vybavení sklízecích mlátiček přijímači signálu GPS&nbsp;a&nbsp;výnosovými čidly, tvorba
+                a&nbsp;interpretace výnosových map.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>MONITORING ZVĚŘE NA ZEMĚDĚLSKÝCH A&nbsp;LESNÍCH POZEMCÍCH S&nbsp;VYUŽITÍM DRONŮ</label>
+            <p>12/13</p>
+            <p>Využití bezpilotních prostředků (dronů) pro&nbsp;monitoring zvěře za&nbsp;účelem zjišťování stavů,
+                plánování opatření, snížení škod apod.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+        <div>
+            <label>VYUŽITÍ POLNÍCH ROBOTŮ V&nbsp;ZELINÁŘSTVÍ A&nbsp;OVOCNÁŘSTVÍ</label>
+            <p>13/13</p>
+            <p>Zahrnuje širokou škálu operací: sázení, jednocení, balíčkování, sklizeň, třídění apod.</p>
+            <label>Technologická vyspělost</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+            <label>Užitečnost pro praxi</label>
+            <div>
+                <input type="radio" title="tech" value="1">
+                <input type="radio" title="tech" value="2">
+                <input type="radio" title="tech" value="3">
+                <input type="radio" title="tech" value="4">
+                <input type="radio" title="tech" value="5">
+                <input type="radio" title="tech" value="0">
+            </div>
+        </div>
+
+        <div>
+            <p>
+                Po&nbsp;odeslání formuláře obdržíte na&nbsp;Vámi uvedený email zprávu, po&nbsp;jejím potvrzení
+                se&nbsp;stáváte členem otevřené komunity UTIPA.INFO, okamžitě získáte přístup ke&nbsp;graficky
+                zpracovaným datům, můžete si porovnávat Vaše hodnocení s&nbsp;jinými, porovnávat hodnocení metod
+                precizního zemědělství od&nbsp;různých skupin a&nbsp;potenciálně rozdíly mezi zeměmi a&nbsp;vývoj
+                v&nbsp;čase. Budete moci pracovat se&nbsp;všemi hodnocenými metodami a&nbsp;získáte také možnost
+                navrhování dalších k&nbsp;hodnocení.<br />
+                Potvrzením zprávy též vyjadřujete souhlas se&nbsp;zasíláním zpráv o&nbsp;novinkách a&nbsp;dění
+                v&nbsp;UTIPA.INFO a&nbsp;souhlasíte s&nbsp; <a href="#">pravidly využívání</a>.
+            </p>
+        </div>
+
+        <input type="submit" value="Odeslat">
+
+    </form>
+
+</main>
+</body>
+</html>
