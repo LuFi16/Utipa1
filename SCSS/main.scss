@@ -4,6 +4,7 @@ $color-content: #FFFFFF;   /* white */
 $color-footer-up: #FFFFFF;   /* white */
 $color-footer-down: #333132;  /* almost black */
 $color-utipa-green: #76BF58;  /* green */
+$color-green-dark: #348413;  /* darker green */
 $color-a-active: #3EA0C7;     /* blue */
 $color-text: #000000;     /* black */
 $color-header-text-bg: #000000;     /* black */
@@ -66,25 +67,39 @@ $color-text-invert: #FFFFFF;   /* white */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*  background img  */
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  padding: 3rem 0 3rem 0;
 }
 .c-header__title{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
+  max-width: 50%;
+  text-align: center;
 }
 .c-header__question{
-  font-size: 20px;
+  font-size: 25px;;
+  max-width: 50%;
+  text-align: center;
 }
 .c-header__text{
   padding: 2rem;
+  margin: 0;
   background: transparentize($color-header-text-bg, 0.7);
 }
 .c-header__btn{
   background: $color-utipa-green;
   color: $color-text-invert;
   border: none;
-  padding: 1rem;
-
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+.c-header__btn:hover{
+  cursor: pointer;
+  background: $color-green-dark;
 }
 
 

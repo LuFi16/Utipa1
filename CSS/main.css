@@ -2,6 +2,7 @@
 /* white */
 /* almost black */
 /* green */
+/* darker green */
 /* blue */
 /* black */
 /* black */
@@ -60,24 +61,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*  background img  */ }
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  padding: 3rem 0 3rem 0; }
 
 .c-header__title {
-  font-size: 25px;
-  font-weight: bold; }
+  font-size: 30px;
+  font-weight: bold;
+  max-width: 50%;
+  text-align: center; }
 
 .c-header__question {
-  font-size: 20px; }
+  font-size: 25px;
+  max-width: 50%;
+  text-align: center; }
 
 .c-header__text {
   padding: 2rem;
+  margin: 0;
   background: rgba(0, 0, 0, 0.3); }
 
 .c-header__btn {
   background: #76BF58;
   color: #FFFFFF;
   border: none;
-  padding: 1rem; }
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 3rem; }
+
+.c-header__btn:hover {
+  cursor: pointer;
+  background: #348413; }
 
 /* --- BODY --- */
 body {
