@@ -200,7 +200,9 @@ a:hover {
 
 /*  outputs  */
 .c-outputs {
-  width: 100%; }
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3rem 2rem 1rem 2rem; }
 
 .c-outputs__heading {
   text-align: center;
