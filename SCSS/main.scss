@@ -5,10 +5,12 @@ $color-footer-up: #FFFFFF;   /* white */
 $color-footer-down: #333132;  /* almost black */
 $color-utipa-green: #76BF58;  /* green */
 $color-green-dark: #348413;  /* darker green */
-$color-a-active: #3EA0C7;     /* blue */
+$color-utipa-blue: #3EA0C7;     /* blue */
 $color-text: #000000;     /* black */
 $color-header-text-bg: #000000;     /* black */
 $color-text-invert: #FFFFFF;   /* white */
+$color-btn-output-bg: #FFFFFF;   /* white */
+$color-output-bg: #FFFFFF;   /* white */
 
 
 /* !!! OVERFLOW !!! */
@@ -20,7 +22,7 @@ $color-text-invert: #FFFFFF;   /* white */
   font-weight: bold;
 }
 .c-active{
-  color: $color-a-active;
+  color: $color-utipa-blue;
 }
 .c-text-center{
   text-align: center;
@@ -44,6 +46,7 @@ $color-text-invert: #FFFFFF;   /* white */
   margin: 0;
   display: inline-flex;
   justify-content: space-between;
+  align-items: center;
 }
 .c-nav-up__li{
   padding: 1rem;
@@ -59,7 +62,7 @@ $color-text-invert: #FFFFFF;   /* white */
   color: $color-text;
 }
 .c-nav__a:hover{
-  color: $color-a-active;
+  color: $color-utipa-blue;
   text-decoration: none;
 }
 
@@ -76,7 +79,7 @@ $color-text-invert: #FFFFFF;   /* white */
   justify-content: space-between;
 }
 .c-nav__li{
-  padding: 1rem;
+  padding: 2rem 1rem 2rem 1rem;
 }
 
 /*  header  */
@@ -132,6 +135,8 @@ $color-text-invert: #FFFFFF;   /* white */
 body{
   background: $color-background;
   font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 a{
   color: $color-utipa-green;
@@ -205,6 +210,40 @@ a:hover{
   text-align: center;
 }
 
+/*  outputs  */
+.c-outputs{
+  width: 100%;
+}
+.c-outputs__heading{
+  text-align: center;
+  font-weight: normal;
+}
+.c-outputs__ul{
+  list-style-type: none;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0;
+}
+.c-outputs__li{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.2rem;
+  background: $color-output-bg;
+  width: 25%;
+}
+.c-outputs__li-btn{
+  background: $color-btn-output-bg;
+  border: 2px solid $color-utipa-blue;
+  color: $color-utipa-blue;
+  width: 80%;
+  padding: 1rem;
+  cursor: pointer;
+}
+
 
 /* --- FOOTER --- */
 /*  footer up  */
@@ -228,6 +267,7 @@ a:hover{
   background: $color-footer-down;
   text-align: center;
   color: $color-text-invert;
+  padding: 1rem;
 }
 .c-footer-down__nav-ul{
   list-style-type: none;
@@ -238,13 +278,13 @@ a:hover{
   justify-content: center;
 }
 .c-footer-down__nav-li{
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
 }
 .c-footer-down__nav-a{
   color: $color-text-invert;
 }
 .c-footer-down__nav-a:hover{
-  color: $color-a-active;
+  color: $color-utipa-blue;
   text-decoration: none;
 }
 .c-footer-down__a{
@@ -252,7 +292,7 @@ a:hover{
   color: $color-text-invert;
 }
 .c-footer-down__a:hover{
-  color: $color-a-active;
+  color: $color-utipa-blue;
 }
 .c-footer-down__badge{
   padding: 1rem;
