@@ -29,6 +29,8 @@
 }
 .c-nav__a{
   color: $color-text;
+  height: 100%;
+  width: 100%;
 }
 .c-nav__a:hover{
   color: $color-utipa-blue;
@@ -198,6 +200,7 @@
     max-width: $width-page;
     justify-content: space-between;
     align-items: center;
+    text-transform: uppercase;
   }
   .c-nav__li{
     padding: 2rem 0 2rem 0;
