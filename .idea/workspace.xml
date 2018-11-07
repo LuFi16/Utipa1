@@ -23,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
+            <state relative-caret-position="323">
+              <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
               <folding>
                 <element signature="e#2429#2435#0" expanded="true" />
                 <element signature="e#2771#2777#0" expanded="true" />
@@ -51,18 +51,8 @@
       <file leaf-file-name="_components.content.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SCSS/components/_components.content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="81" column="16" lean-forward="true" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_components.colors-widths.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SCSS/components/_components.colors-widths.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="625">
+              <caret line="249" column="1" lean-forward="true" selection-start-line="249" selection-start-column="1" selection-end-line="249" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -82,6 +72,7 @@
       <find>font-size</find>
       <find>nm</find>
       <find>width-page</find>
+      <find>c-logo-utipa</find>
       <find>tablet</find>
     </findStrings>
     <replaceStrings>
@@ -202,12 +193,12 @@
       <workItem from="1539259359603" duration="4803000" />
       <workItem from="1539772670065" duration="15600000" />
       <workItem from="1539856942193" duration="11440000" />
-      <workItem from="1541582833867" duration="14925000" />
+      <workItem from="1541582833867" duration="16520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50231000" />
+    <option name="totallyTimeSpent" value="51826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -396,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
+        <state relative-caret-position="323">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
           <folding>
             <element signature="e#2429#2435#0" expanded="true" />
             <element signature="e#2771#2777#0" expanded="true" />
@@ -422,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SCSS/components/_components.content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="81" column="16" lean-forward="true" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+        <state relative-caret-position="625">
+          <caret line="249" column="1" lean-forward="true" selection-start-line="249" selection-start-column="1" selection-end-line="249" selection-end-column="1" />
           <folding />
         </state>
       </provider>
