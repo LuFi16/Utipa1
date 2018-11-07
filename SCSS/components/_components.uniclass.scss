@@ -1,0 +1,26 @@
+.c-green{
+  color: $color-utipa-green;
+}
+.c-bold{
+  font-weight: bold;
+}
+.c-active{
+  color: $color-utipa-blue !important;
+}
+.c-text-center{
+  text-align: center;
+}
+.c-text-justify{
+  text-align: justify;
+}
+.c-nomargin{
+  margin: 0;
+}
+
+
+
+@media (max-width: $mobile) {
+  .c-mobile-hide {
+    display: none !important;
+  }
+}

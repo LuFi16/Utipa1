@@ -5,25 +5,32 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1.0">
     <title>Domů</title>
     <link rel="stylesheet" href="CSS/main.css" type="text/css">
-    <!-- font awesome --><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- font awesome --><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- font monserrat --><link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 </head>
 <body>
 <header class="c-header">
     <nav class="c-nav-up">
         <ul class="c-nav-up__ul">
-            <li class="c-nav-up__li"><a href="#" class="c-nav__a-title">UTIPA.info</a></li>
-            <li class="c-nav-up__li"><a href="#" class="c-nav__a">
+            <li class="c-nav-up__li c-mobile-hide"><a href="#" class="c-nav__a-title">UTIPA.info</a></li>
+            <li class="c-nav-up__li"><i class="fas fa-bars c-nav-hamburger"></i><a href="#" class="c-nav__a-title">UTIPA</a></li>
+            <li class="c-nav-up__li c-mobile-hide"><a href="#" class="c-nav__a">
                 Přihlásit&nbsp;se</a> | <a href="#" class="c-nav__a">Registrace</a>
             </li>
+            <li class="c-nav-up__li"><i class="fas fa-ellipsis-v c-nav-dots"></i></li>
         </ul>
     </nav>
+    <ul class="c-nav-login">
+        <li><a href="#" class="c-nav__a">
+            Přihlásit&nbsp;se</a> | <a href="#" class="c-nav__a">Registrace</a>
+        </li>
+    </ul>
     <nav class="c-nav">
         <ul class="c-nav__ul">
-            <li class="c-nav__li"><a href="#" class="c-nav__a c-active">DOMŮ</a></li>
-            <li class="c-nav__li"><a href="#" class="c-nav__a">O&nbsp;INDEXU</a></li>
-            <li class="c-nav__li"><a href="#" class="c-nav__a">VÝSLEDKY</a></li>
-            <li class="c-nav__li"><a href="#" class="c-nav__a">TECHNOLOGIE</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a c-active">Domů</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">O&nbsp;Indexu</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">Výsledky</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">Technologie</a></li>
             <li class="c-nav__li">
                 <a href="#" class="c-nav__a">
                     <img src="img/flag_EN.svg" alt="English/Czech" class="c-flag">
@@ -33,7 +40,7 @@
     </nav>
 </header>
 
-<main>
+<!--<main>
     <header class="c-header__obr">
         <h1 class="c-header__text c-header__title">UŽIVATELSKO-TECHNOLOGICKÝ INDEX PRECIZNÍHO ZEMĚDĚLSTVÍ</h1>
         <p class="c-header__text c-header__question">Víte, jaké technologie jsou nejužitečnější?</p>
@@ -160,7 +167,7 @@
         <h2 class="c-footer-up__header">Koordinátor</h2>
         <div>
             <a href="https://www.czu.cz/">Česká zemědělská univerzita v&nbsp;Praze</a><br />
-            <a href="https://www.czu.cz/">Centrum precizního zemědělství</a><br />  <!--  jaký odkaz?  -->
+            <a href="https://www.czu.cz/">Centrum precizního zemědělství</a><br />  &lt;!&ndash;  jaký odkaz?  &ndash;&gt;
             <address class="c-footer-up__address">Kamýcká 129, Praha, 165 21, Česká republika</address>
             E-mail: <a href="mailto:info@utipa.info">info@utipa.info</a>
         </div>
@@ -175,7 +182,7 @@
     <div class="c-footer-down">
         <nav>
             <ul class="c-footer-down__nav-ul">
-                <li class="c-footer-down__nav-li"><a href="index.html" class="c-footer-down__nav-a c-active">Domů</a></li>   <!--  add active class to other pages  -->
+                <li class="c-footer-down__nav-li"><a href="index.html" class="c-footer-down__nav-a c-active">Domů</a></li>   &lt;!&ndash;  add active class to other pages  &ndash;&gt;
                 <li class="c-footer-down__nav-li"><a href="oindexu.html" class="c-footer-down__nav-a">O&nbsp;Indexu</a></li>
                 <li class="c-footer-down__nav-li"><a href="#" class="c-footer-down__nav-a">Výsledky</a></li>
                 <li class="c-footer-down__nav-li"><a href="#" class="c-footer-down__nav-a">Technologie</a></li>
@@ -186,7 +193,7 @@
                 </li>
             </ul>
         </nav>
-        <img src="img/GooglePlay-CZ.svg" alt="Google Play" class="c-footer-down__badge">  <!--  add images  -->
+        <img src="img/GooglePlay-CZ.svg" alt="Google Play" class="c-footer-down__badge">  &lt;!&ndash;  add images  &ndash;&gt;
         <img src="img/AppStore_CZ.svg" alt="App Store" class="c-footer-down__badge">
         <p>
             Návrh a&nbsp;metodika: <a href="http://kit.pef.czu.cz/" class="c-footer-down__a">
@@ -195,6 +202,6 @@
                 CSITA - Czech Society for Information Technology in Agriculture</a><span class="c-bold"> © 2018</span>
         </p>
     </div>
-</footer>
+</footer>-->
 </body>
 </html>
