@@ -72,6 +72,40 @@ a:hover{
   text-align: center;
 }
 
+/*  outputs  */
+.c-outputs {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3rem 2rem 1rem 2rem;
+}
+.c-outputs__heading {
+  text-align: center;
+  font-weight: normal;
+}
+.c-outputs__ul {
+  list-style-type: none;
+  padding: 0;
+}
+.c-outputs__li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  background: $color-output-bg;
+  justify-content: space-between;
+}
+
+.c-outputs__li-btn {
+  background: $color-btn-output-bg;
+  border: 2px solid $color-utipa-blue;
+  color: $color-utipa-blue;
+  width: 80%;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+
 
 @media (max-width: $tablet) { //MOBILE & TABLET
 
@@ -131,43 +165,40 @@ a:hover{
     order: 7;
   }
 
+
+}
+
+@media (max-width: 554px) {
   /*  outputs  */
   .c-outputs {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 3rem 2rem 1rem 2rem;
-  }
-  .c-outputs__heading {
-    text-align: center;
-    font-weight: normal;
+    padding: 3rem 1rem 1rem 1rem;
   }
   .c-outputs__ul {
-    list-style-type: none;
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    padding: 0;
-  }
-  .c-outputs__li {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 1rem;
-    margin: 0.2rem;
-    background: $color-output-bg;
-    width: 25%;
   }
-  .c-outputs__li-btn {
-    background: $color-btn-output-bg;
-    border: 2px solid $color-utipa-blue;
-    color: $color-utipa-blue;
-    width: 80%;
-    padding: 1rem;
-    cursor: pointer;
+  .c-outputs__li {
+    box-sizing: border-box;
+    margin: 0.2rem 0 0.2rem 0;
+    width: 100%;
   }
 }
 
+@media (min-width: 555px) and (max-width: $tablet){
+  /*  outputs  */
+
+  .c-outputs__ul {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-flex;
+  }
+  .c-outputs__li {
+    box-sizing: border-box;
+    margin: 0.2rem auto 0.2rem auto;
+    width: 49%;
+  }
+}
 
 @media (min-width: $tablet+1px) { //COMPUTER
 
@@ -205,42 +236,16 @@ a:hover{
     justify-content: center;
   }
 
-  /*!*  outputs  *!
-  .c-outputs {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 3rem 2rem 1rem 2rem;
-  }
-  .c-outputs__heading {
-    text-align: center;
-    font-weight: normal;
-  }
+  /*  outputs  */
   .c-outputs__ul {
-    list-style-type: none;
     width: 100%;
     display: inline-flex;
     justify-content: center;
-    padding: 0;
   }
   .c-outputs__li {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 1rem;
     margin: 0.2rem;
-    background: $color-output-bg;
     width: 25%;
   }
-  .c-outputs__li-btn {
-    background: $color-btn-output-bg;
-    border: 2px solid $color-utipa-blue;
-    color: $color-utipa-blue;
-    width: 80%;
-    padding: 1rem;
-    cursor: pointer;
-  }*/
-
 }
 
 @media (min-width: $tablet+1px) and (max-width: 900px){
