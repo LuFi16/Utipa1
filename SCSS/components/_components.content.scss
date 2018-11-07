@@ -13,8 +13,7 @@ a:hover{
   text-decoration: underline;
 }
 
-/*
-!*  content  *!
+/*  content  */
 .c-logo-utipa{
   width: auto;
   height: 7rem;
@@ -65,6 +64,7 @@ a:hover{
   width: 100%;
   display: inline-flex;
   justify-content: center;
+  padding: 0;
 }
 .c-content__icons-li{
   max-width: 10rem;
@@ -80,6 +80,7 @@ a:hover{
   width: 100%;
   display: inline-flex;
   justify-content: center;
+  padding: 0;
 }
 .c-content__nmbrs-li{
   padding: 1rem;
@@ -91,7 +92,7 @@ a:hover{
   text-align: center;
 }
 
-!*  outputs  *!
+/*  outputs  */
 .c-outputs{
   width: 100%;
   box-sizing: border-box;
@@ -125,4 +126,4 @@ a:hover{
   width: 80%;
   padding: 1rem;
   cursor: pointer;
-}*/
+}

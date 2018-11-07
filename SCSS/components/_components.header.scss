@@ -1,25 +1,110 @@
 
-@media (max-width: $mobile){
-  .c-header{
-    width: 100%;
+
+.c-header{
+  width: 100%;
+}
+
+.c-nav-up{
+  background: $color-nav;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.c-nav-up__ul{
+  list-style-type: none;
+  width: 100%;
+  max-width: $width-page;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.c-nav__a-title{
+  color: $color-text;
+}
+.c-nav__a-title:hover{
+  text-decoration: none;
+}
+.c-nav__a{
+  color: $color-text;
+}
+.c-nav__a:hover{
+  color: $color-utipa-blue;
+  text-decoration: none;
+}
+.c-nav__ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.c-flag{
+  height: 1.5rem;
+  width: auto;
+}
+
+/*  main - header (with img)  */
+.c-header__obr{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  padding: 3rem 0 3rem 0;
+}
+.c-header__title{
+  font-weight: bold;
+}
+.c-header__text{
+  box-sizing: border-box;
+  max-width: 50rem;
+  margin: 0;
+  background: transparentize($color-header-text-bg, 0.7);
+  color: $color-text-invert;
+  text-align: center;
+
+}
+.c-header__btn{
+  background: $color-utipa-green;
+  color: $color-text-invert;
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+.c-header__btn:hover{
+  cursor: pointer;
+  background: $color-green-dark;
+}
+
+
+
+
+
+@media (max-width: 350px){    //MOBILE
+  /*  main - header (with img)  */
+
+  .c-header__title{
+    font-size: 100%;
   }
+  .c-header__question{
+    font-size: 95%;
+  }
+  .c-header__text{
+    padding: 1rem;
+  }
+  .c-header__btn{
+    font-size: 90%;
+  }
+}
+
+
+@media (max-width: $tablet){    //MOBILE & TABLET
   /*  nav up (logo) */
-  .c-nav-up{
-    background: green/*$color-nav*/;
-    width: 100%;
-    font-weight: bold;
-    text-align: center;
-  }
-  .c-nav-up__ul{
-    list-style-type: none;
-    width: 100%;
-    max-width: $width-page;
-    padding: 0;
-    margin: 0;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   .c-nav-up__li{
     padding: 1rem;
     display: flex;
@@ -30,21 +115,16 @@
     font-size: 20px;
     padding-left: 1rem;
   }
-  .c-nav__a-title:hover{
-    text-decoration: none;
-  }
-  .c-nav__a{
-    color: $color-text;
-  }
-  .c-nav__a:hover{
-    color: $color-utipa-blue;
-    text-decoration: none;
-  }
   .c-nav-hamburger{
-    font-size: 25px;
+    font-size: 25px !important;
   }
   .c-nav-dots{
-    font-size: 20px;
+    font-size: 20px !important;
+  }
+
+  /*  nav (home, about...) */
+  .c-nav{
+    text-align: center;
   }
 
   /*  nav (logian, registration) */
@@ -63,7 +143,7 @@
     }
   }
 
-  /*  nav (home, about...) */
+  /*   nav (home, about...)   */
   .c-nav{
     text-align: center;
   }
@@ -72,21 +152,58 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    /*max-width: $width-page;*/
     padding: 0;
     margin: 0;
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
   }
   .c-nav__li{
     padding: 1rem 0 1rem 0;
   }
-  .c-flag{
-    height: 1.5rem;
-    width: auto;
+
+}
+
+@media (min-width: 351px){    //from bigger MOBILE
+  /*  main - header (with img)  */
+  .c-header__title{
+    font-size: 30px;
+  }
+  .c-header__question{
+    font-size: 25px;
+  }
+  .c-header__text{
+    padding: 2rem;
+  }
+  .c-header__btn{
+    font-size: 20px;
+  }
+}
+
+
+@media (min-width: $tablet+1px){    //COMPUTER
+  /*  nav up  (logo, login...)*/
+  .c-nav-up__li{
+    padding: 1rem 0 1rem 0;
+  }
+  .c-nav__a-title{
+    font-size: 30px;
   }
 
-  /*  main - header (with img)  */
+  /*  nav  (home, about...*/
+  .c-nav{
+    font-weight: bold;
+    text-align: center;
+  }
+  .c-nav__ul{
+    display: inline-flex;
+    width: 100%;
+    max-width: $width-page;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .c-nav__li{
+    padding: 2rem 0 2rem 0;
+  }
+
+  /*  main - header (with img) */
   .c-header__obr{
     width: 100%;
     display: flex;
@@ -129,110 +246,15 @@
   }
 }
 
-
-
-@media (min-width: $mobile+1px){
-  .c-header{
-    width: 100%;
-  }
-  /*  nav up (logo, registration...) */
-  .c-nav-up{
-    background: $color-nav;
-    width: 100%;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-  }
+@media (min-width: $tablet+1px) and (max-width: 1230px){
   .c-nav-up__ul{
-    list-style-type: none;
-    width: 100%;
-    max-width: $width-page;
-    padding: 0;
-    margin: 0;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .c-nav-up__li{
-    padding: 1rem 0 1rem 0;
-  }
-  .c-nav__a-title{
-    color: $color-text;
-    font-size: 30px;
-  }
-  .c-nav__a-title:hover{
-    text-decoration: none;
-  }
-  .c-nav__a{
-    color: $color-text;
-  }
-  .c-nav__a:hover{
-    color: $color-utipa-blue;
-    text-decoration: none;
-  }
-
-  /*  nav (home, about...) */
-  .c-nav{
-    font-weight: bold;
-    text-align: center;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .c-nav__ul{
-    list-style-type: none;
-    display: inline-flex;
-    width: 100%;
-    max-width: $width-page;
-    padding: 0;
-    margin: 0;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .c-nav__li{
-    padding: 2rem 0 2rem 0;
-  }
-  .c-flag{
-    height: 1.5rem;
-    width: auto;
-  }
-
-  /*  main - header (with img)  */
-  .c-header__obr{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("../img/header.jpg");
-    background-size: cover;
-    padding: 3rem 0 3rem 0;
-  }
-  .c-header__title{
-    font-size: 30px;
-    font-weight: bold;
-  }
-  .c-header__question{
-    font-size: 25px;
-  }
-  .c-header__text{
-    padding: 2rem;
     box-sizing: border-box;
-    max-width: 50rem;
-    margin: 0;
-    background: transparentize($color-header-text-bg, 0.7);
-    color: $color-text-invert;
-    text-align: center;
-
-  }
-  .c-header__btn{
-    background: $color-utipa-green;
-    color: $color-text-invert;
-    border: none;
-    padding: 1rem 2rem 1rem 2rem;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 3rem;
-  }
-  .c-header__btn:hover{
-    cursor: pointer;
-    background: $color-green-dark;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

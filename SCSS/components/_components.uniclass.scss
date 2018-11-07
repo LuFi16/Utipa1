@@ -19,8 +19,13 @@
 
 
 
-@media (max-width: $mobile) {
-  .c-mobile-hide {
+@media (max-width: $tablet) {
+  .c-tablet-hide {
+    display: none !important;
+  }
+}
+@media (min-width: $tablet+1px) {
+  .c-computer-hide {
     display: none !important;
   }
 }
