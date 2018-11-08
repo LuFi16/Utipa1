@@ -79,7 +79,35 @@ a:hover{
 .c-nmbrs__img{
   width: 5rem;
   height: auto;
-  padding: 1rem 0 1rem 0;
+  margin: 1rem 0 1rem 0;
+}
+
+.c-nmbrs__imgs{
+  position: relative;
+  width: 5rem;
+  height: auto;
+}
+.c-nmbrs__img-off{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.c-nmbrs__img-on{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.c-nmbrs__imgs:hover .c-nmbrs__img-off {
+  opacity: 0;
+}
+
+.c-nmbrs__imgs:hover .c-nmbrs__img-on {
+  opacity: 1;
 }
 
 /*  outputs  */
@@ -114,7 +142,6 @@ a:hover{
   padding: 1rem;
   cursor: pointer;
 }
-
 
 
 @media (max-width: $tablet) { //MOBILE & TABLET
@@ -244,6 +271,10 @@ a:hover{
   .c-content__nmbrs-ul {
     display: inline-flex;
     justify-content: center;
+  }
+
+  .c-content__quot {
+    font-size: x-large;
   }
 
   /*  outputs  */

@@ -31,6 +31,7 @@
   color: $color-text;
   height: 100%;
   width: 100%;
+  transition: 400ms;    //effect delay
 }
 .c-nav__a:hover{
   color: $color-utipa-blue;
@@ -77,6 +78,7 @@
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 3rem;
+  box-shadow: 0 0 25px black;
 }
 .c-header__btn:hover{
   cursor: pointer;
@@ -129,7 +131,7 @@
     text-align: center;
   }
 
-  /*  nav (logian, registration) */
+  /*  nav (login, registration) */
   .c-nav-login{
     list-style-type: none;
     display: flex;
@@ -193,7 +195,26 @@
   .c-nav{
     font-weight: bold;
     text-align: center;
+    position: relative;
+    z-index: 1;
+    background: $color-background;
   }
+  .c-nav-up{
+    position: relative;
+    z-index: 2;
+  }
+  .c-nav-move {   //menu when scroll
+    font-weight: bold;
+    text-align: center;
+    background: $color-background;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+  }
+
+
   .c-nav__ul{
     display: inline-flex;
     width: 100%;
@@ -203,7 +224,7 @@
     text-transform: uppercase;
   }
   .c-nav__li{
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
   }
 
   /*  main - header (with img) */

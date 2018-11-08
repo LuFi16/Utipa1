@@ -61,7 +61,8 @@
 .c-nav__a {
   color: #000000;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  transition: 400ms; }
 
 .c-nav__a:hover {
   color: #3EA0C7;
@@ -104,7 +105,8 @@
   padding: 1rem 2rem 1rem 2rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  box-shadow: 0 0 25px black; }
 
 .c-header__btn:hover {
   cursor: pointer;
@@ -145,7 +147,7 @@
   .c-nav {
     text-align: center; }
 
-  /*  nav (logian, registration) */
+  /*  nav (login, registration) */
   .c-nav-login {
     list-style-type: none;
     display: flex;
@@ -197,7 +199,24 @@
   /*  nav  (home, about...*/
   .c-nav {
     font-weight: bold;
-    text-align: center; }
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background: #E1D8CC; }
+
+  .c-nav-up {
+    position: relative;
+    z-index: 2; }
+
+  .c-nav-move {
+    font-weight: bold;
+    text-align: center;
+    background: #E1D8CC;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    z-index: 0; }
 
   .c-nav__ul {
     display: inline-flex;
@@ -208,7 +227,7 @@
     text-transform: uppercase; }
 
   .c-nav__li {
-    padding: 2rem 0 2rem 0; }
+    padding: 1rem 0 1rem 0; }
 
   /*  main - header (with img) */
   .c-header__obr {
@@ -336,7 +355,33 @@ a:hover {
 .c-nmbrs__img {
   width: 5rem;
   height: auto;
-  padding: 1rem 0 1rem 0; }
+  margin: 1rem 0 1rem 0; }
+
+.c-nmbrs__imgs {
+  position: relative;
+  width: 5rem;
+  height: auto; }
+
+.c-nmbrs__img-off {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.c-nmbrs__img-on {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.c-nmbrs__imgs:hover .c-nmbrs__img-off {
+  opacity: 0; }
+
+.c-nmbrs__imgs:hover .c-nmbrs__img-on {
+  opacity: 1; }
 
 /*  outputs  */
 .c-outputs {
@@ -481,6 +526,9 @@ a:hover {
   .c-content__nmbrs-ul {
     display: inline-flex;
     justify-content: center; }
+
+  .c-content__quot {
+    font-size: x-large; }
 
   /*  outputs  */
   .c-outputs__ul {
