@@ -46,7 +46,13 @@
 .c-flag{
   height: 1.5rem;
   width: auto;
+  opacity: 0.5;
+  transition: 400ms;
 }
+.c-flag:hover{
+  opacity: 1;
+}
+
 
 /*  main - header (with img)  */
 .c-header__obr{
@@ -71,7 +77,7 @@
 
 }
 .c-header__btn{
-  background: $color-utipa-green;
+  background: $color-btn-header-bg;
   color: $color-text-invert;
   border: none;
   padding: 1rem 2rem 1rem 2rem;
@@ -79,6 +85,7 @@
   text-transform: uppercase;
   margin-top: 3rem;
   box-shadow: 0 0 25px black;
+  transition: 400ms;
 }
 .c-header__btn:hover{
   cursor: pointer;
@@ -196,12 +203,12 @@
     font-weight: bold;
     text-align: center;
     position: relative;
-    z-index: 1;
+    z-index: 999;
     background: $color-background;
   }
   .c-nav-up{
     position: relative;
-    z-index: 2;
+    z-index: 999;
   }
   .c-nav-move {   //menu when scroll
     font-weight: bold;
@@ -211,7 +218,8 @@
     box-sizing: border-box;
     width: 100%;
     top: 0;
-    z-index: 0;
+    z-index: 900;
+    box-shadow: 0 2px 10px gray;
   }
 
 

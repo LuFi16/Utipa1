@@ -81,7 +81,6 @@ a:hover{
   height: auto;
   margin: 1rem 0 1rem 0;
 }
-
 .c-nmbrs__imgs{
   position: relative;
   width: 5rem;
@@ -105,7 +104,6 @@ a:hover{
 .c-nmbrs__imgs:hover .c-nmbrs__img-off {
   opacity: 0;
 }
-
 .c-nmbrs__imgs:hover .c-nmbrs__img-on {
   opacity: 1;
 }
@@ -141,8 +139,14 @@ a:hover{
   width: 80%;
   padding: 1rem;
   cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 400ms;
 }
-
+.c-outputs__li-btn:hover{
+  background: $color-utipa-blue;
+  color: $color-text-invert;
+}
 
 @media (max-width: $tablet) { //MOBILE & TABLET
 

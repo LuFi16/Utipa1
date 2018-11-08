@@ -9,6 +9,7 @@
 /* white */
 /* white */
 /* white */
+/* green */
 .c-green {
   color: #76BF58; }
 
@@ -75,7 +76,12 @@
 
 .c-flag {
   height: 1.5rem;
-  width: auto; }
+  width: auto;
+  opacity: 0.5;
+  transition: 400ms; }
+
+.c-flag:hover {
+  opacity: 1; }
 
 /*  main - header (with img)  */
 .c-header__obr {
@@ -99,14 +105,15 @@
   text-align: center; }
 
 .c-header__btn {
-  background: #76BF58;
+  background: #51A049FF;
   color: #FFFFFF;
   border: none;
   padding: 1rem 2rem 1rem 2rem;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 3rem;
-  box-shadow: 0 0 25px black; }
+  box-shadow: 0 0 25px black;
+  transition: 400ms; }
 
 .c-header__btn:hover {
   cursor: pointer;
@@ -201,12 +208,12 @@
     font-weight: bold;
     text-align: center;
     position: relative;
-    z-index: 1;
+    z-index: 999;
     background: #E1D8CC; }
 
   .c-nav-up {
     position: relative;
-    z-index: 2; }
+    z-index: 999; }
 
   .c-nav-move {
     font-weight: bold;
@@ -216,7 +223,8 @@
     box-sizing: border-box;
     width: 100%;
     top: 0;
-    z-index: 0; }
+    z-index: 900;
+    box-shadow: 0 2px 10px gray; }
 
   .c-nav__ul {
     display: inline-flex;
@@ -412,7 +420,14 @@ a:hover {
   color: #3EA0C7;
   width: 80%;
   padding: 1rem;
-  cursor: pointer; }
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 400ms; }
+
+.c-outputs__li-btn:hover {
+  background: #3EA0C7;
+  color: #FFFFFF; }
 
 @media (max-width: 740px) {
   /*  content  */
@@ -574,7 +589,8 @@ a:hover {
   padding: 0 1rem 1rem 1rem; }
 
 .c-footer-down__nav-a {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  transition: 400ms; }
 
 .c-footer-down__nav-a:hover {
   color: #3EA0C7;
