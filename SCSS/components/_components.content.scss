@@ -127,7 +127,7 @@ a:hover{
   flex-direction: column;
   text-align: center;
   align-items: center;
-  padding: 1rem;
+  padding: 0;
   background: $color-output-bg;
   justify-content: space-between;
 }
@@ -136,7 +136,7 @@ a:hover{
   background: $color-btn-output-bg;
   border: 2px solid $color-utipa-blue;
   color: $color-utipa-blue;
-  width: 80%;
+  width: 100%;
   padding: 1rem;
   cursor: pointer;
   text-transform: uppercase;
@@ -148,24 +148,38 @@ a:hover{
   color: $color-text-invert;
 }
 
-
+.c-outputs__downblock{
+  padding: 1rem 2rem 2rem 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
 
 
 //CONTINUE HERE ->
 .c-outputs__img{
-  height: 7rem;
-  width: auto;
+  //height: 7rem;
+  //width: auto;
   transition: 400ms;
-}
-.container{
-  position: relative;
-}
-.jedna{
   display: block;
   width: 100%;
-  height: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 100%;
 }
-.dva{position: absolute;
+.c-outputs__block{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  //background: #e1d8cc;
+  //opacity: 0.3;
+  background: transparentize(#e1d8cc, 0.7);
+}
+.c-outputs__a{
+  width: 100%;
+  height: 100%;
+}
+.c-outputs__block-effect{
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -176,7 +190,7 @@ a:hover{
   transition: .7s ease;
   background-color: $color-utipa-green;
 }
-.container:hover .dva {
+.c-outputs__block:hover .c-outputs__block-effect {
   opacity: 0.5;
 }
 //CONTINUE HERE <-

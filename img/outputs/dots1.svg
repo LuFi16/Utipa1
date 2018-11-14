@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800" aria-label="A chart." style="overflow: hidden;">
+    <defs id="defs">
+        <clipPath id="_ABSTRACT_RENDERER_ID_2">
+            <rect x="60" y="20" width="680" height="680"></rect>
+        </clipPath>
+    </defs>
+    <g>
+        <rect x="60" y="769" width="38" height="15" stroke="none" stroke-width="0" fill-opacity="0"
+              fill="#ffffff"></rect>
+        <g>
+            <rect x="60" y="769" width="38" height="15" stroke="none" stroke-width="0" fill-opacity="0"
+                  fill="#ffffff"></rect>
+            <g>
+                <text text-anchor="start" x="81" y="781.75" font-family="Arial" font-size="15" stroke="none"
+                      stroke-width="0" fill="#222222">All
+                </text>
+            </g>
+            <rect x="60" y="769" width="15" height="15" stroke="none" stroke-width="0" fill="#37b54a"></rect>
+        </g>
+    </g>
+    <g>
+        <rect x="60" y="20" width="680" height="680" stroke="none" stroke-width="0" fill-opacity="0"
+              fill="#ffffff"></rect>
+        <g clip-path="url(https://dev.utipa.info/results#_ABSTRACT_RENDERER_ID_2)">
+            <g>
+                <rect x="91" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="245" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="400" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="554" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="708" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="168" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#ebebeb"></rect>
+                <rect x="322" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#ebebeb"></rect>
+                <rect x="477" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#ebebeb"></rect>
+                <rect x="631" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#ebebeb"></rect>
+                <rect x="60" y="668" width="680" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="60" y="514" width="680" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="60" y="360" width="680" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="60" y="205" width="680" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="60" y="51" width="680" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect>
+                <rect x="60" y="591" width="680" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect>
+                <rect x="60" y="437" width="680" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect>
+                <rect x="60" y="282" width="680" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect>
+                <rect x="60" y="128" width="680" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect>
+            </g>
+            <g>
+                <rect x="60" y="20" width="1" height="680" stroke="none" stroke-width="0" fill="#77bf59"></rect>
+                <rect x="60" y="699" width="680" height="1" stroke="none" stroke-width="0" fill="#77bf59"></rect>
+            </g>
+            <g>
+                <circle cx="446.2954545454545" cy="406.29545454545456" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="446.2954545454545" y="412.5954545454546" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">1
+                </text>
+                <circle cx="400" cy="468.0227272727273" r="18" stroke="none" stroke-width="0" fill-opacity="0.8"
+                        fill="#37b54a"></circle>
+                <text text-anchor="middle" x="400" y="474.3227272727273" font-family="Arial" font-size="18"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">2
+                </text>
+                <circle cx="446.2954545454545" cy="360" r="18" stroke="none" stroke-width="0" fill-opacity="0.8"
+                        fill="#37b54a"></circle>
+                <text text-anchor="middle" x="446.2954545454545" y="366.3" font-family="Arial" font-size="18"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">3
+                </text>
+                <circle cx="508.0227272727273" cy="514.3181818181819" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="508.0227272727273" y="520.6181818181818" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">4
+                </text>
+                <circle cx="446.2954545454545" cy="406.29545454545456" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="446.2954545454545" y="412.5954545454546" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">5
+                </text>
+                <circle cx="508.0227272727273" cy="560.6136363636364" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="508.0227272727273" y="566.9136363636363" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">6
+                </text>
+                <circle cx="446.2954545454545" cy="560.6136363636364" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="446.2954545454545" y="566.9136363636363" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">7
+                </text>
+                <circle cx="477.15909090909093" cy="282.84090909090907" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="477.15909090909093" y="289.1409090909091" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">8
+                </text>
+                <circle cx="245.68181818181816" cy="591.4772727272727" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="245.68181818181816" y="597.7772727272727" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">9
+                </text>
+                <circle cx="322.84090909090907" cy="514.3181818181819" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="322.84090909090907" y="520.6181818181818" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">10
+                </text>
+                <circle cx="168.52272727272725" cy="437.15909090909093" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="168.52272727272725" y="443.45909090909095" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">11
+                </text>
+                <circle cx="353.70454545454544" cy="622.3409090909091" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="353.70454545454544" y="628.6409090909091" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">12
+                </text>
+                <circle cx="245.68181818181816" cy="205.6818181818182" r="18" stroke="none" stroke-width="0"
+                        fill-opacity="0.8" fill="#37b54a"></circle>
+                <text text-anchor="middle" x="245.68181818181816" y="211.9818181818182" font-family="Arial"
+                      font-size="18" font-weight="bold" stroke="none" stroke-width="0" fill="#ffffff">13
+                </text>
+            </g>
+        </g>
+        <g></g>
+        <g>
+            <g>
+                <text text-anchor="middle" x="91.36363636363636" y="720.9" font-family="Arial" font-size="14"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#77bf59">1
+                </text>
+            </g>
+            <g>
+                <text text-anchor="middle" x="245.68181818181816" y="720.9" font-family="Arial" font-size="14"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#77bf59">2
+                </text>
+            </g>
+            <g>
+                <text text-anchor="middle" x="400" y="720.9" font-family="Arial" font-size="14" font-weight="bold"
+                      stroke="none" stroke-width="0" fill="#77bf59">3
+                </text>
+            </g>
+            <g>
+                <text text-anchor="middle" x="554.3181818181818" y="720.9" font-family="Arial" font-size="14"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#77bf59">4
+                </text>
+            </g>
+            <g>
+                <text text-anchor="middle" x="708.6363636363636" y="720.9" font-family="Arial" font-size="14"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#77bf59">5
+                </text>
+            </g>
+            <g>
+                <text text-anchor="end" x="47.66666666666667" y="673.5363636363636" font-family="Arial" font-size="14"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#77bf59">1
+                </text>
+            </g>
+            <g>
+                <text text-anchor="end" x="47.66666666666667" y="519.2181818181818" font-family="Arial" font-size="14"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#77bf59">2
+                </text>
+            </g>
+            <g>
+                <text text-anchor="end" x="47.66666666666667" y="364.9" font-family="Arial" font-size="14"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#77bf59">3
+                </text>
+            </g>
+            <g>
+                <text text-anchor="end" x="47.66666666666667" y="210.5818181818182" font-family="Arial" font-size="14"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#77bf59">4
+                </text>
+            </g>
+            <g>
+                <text text-anchor="end" x="47.66666666666667" y="56.26363636363637" font-family="Arial" font-size="14"
+                      font-weight="bold" stroke="none" stroke-width="0" fill="#77bf59">5
+                </text>
+            </g>
+        </g>
+    </g>
+    <g>
+        <g>
+            <text text-anchor="middle" x="400" y="751.4166666666666" font-family="Arial" font-size="15" stroke="none"
+                  stroke-width="0" fill="#222222">User ratings
+            </text>
+            <rect x="60" y="738.6666666666666" width="680" height="15" stroke="none" stroke-width="0" fill-opacity="0"
+                  fill="#ffffff"></rect>
+        </g>
+        <g>
+            <text text-anchor="middle" x="25.083333333333336" y="360" font-family="Arial" font-size="15"
+                  transform="rotate(-90 25.083333333333336 360)" stroke="none" stroke-width="0" fill="#222222">
+                Technological advancement
+            </text>
+            <path d="M12.333333333333314,700L12.333333333333355,20L27.333333333333357,20L27.333333333333314,700Z"
+                  stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></path>
+        </g>
+    </g>
+    <g></g>
+</svg>
