@@ -21,3 +21,77 @@ $mobile:  320px;
 $tablet:  740px;
 $desktop: 980px;
 $wide:    1300px;
+
+
+
+
+
+
+
+// TEST smooth scrolling
+ #container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+#content{
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+  transition: top 0.5s;
+}
+.subcontent{
+  height: 300px;
+  border: 1px solid #999;
+  padding: 20px;
+}
+#anchor1:target ~ #content{
+  top: 0;
+}
+ #anchor2:target ~ #content{
+  top: -300px;
+}
+#anchor3:target ~ #content{
+  top: -600px;
+}
+
+*{
+  box-sizing: border-box;
+}
+#navbar{
+  background: #444;
+  color: #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.link{
+  display: inline-block;
+  padding: 10px;
+}
+a.link, a.link:visited{
+  text-decoration: none;
+  color: inherit;
+}
+a.link:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+.anchor{
+  display: none;
+}
+a.top{
+  color: red;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
