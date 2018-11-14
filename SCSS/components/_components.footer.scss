@@ -51,6 +51,10 @@
 .c-footer-down__badge{
   padding: 1rem;
 }
+.c-footer-down__badge:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
 
 @media (max-width: $tablet) { //MOBILE & TABLET
   .c-footer{
