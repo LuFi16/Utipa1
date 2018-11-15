@@ -10,64 +10,6 @@
 /* white */
 /* white */
 /* green */
-#container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  font-family: sans-serif;
-  overflow: hidden; }
-
-#content {
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
-  z-index: -1;
-  transition: top 0.5s; }
-
-.subcontent {
-  height: 300px;
-  border: 1px solid #999;
-  padding: 20px; }
-
-#anchor1:target ~ #content {
-  top: 0; }
-
-#anchor2:target ~ #content {
-  top: -300px; }
-
-#anchor3:target ~ #content {
-  top: -600px; }
-
-* {
-  box-sizing: border-box; }
-
-#navbar {
-  background: #444;
-  color: #ddd;
-  padding: 10px;
-  text-align: center; }
-
-.link {
-  display: inline-block;
-  padding: 10px; }
-
-a.link, a.link:visited {
-  text-decoration: none;
-  color: inherit; }
-
-a.link:hover {
-  color: #fff;
-  text-decoration: underline; }
-
-.anchor {
-  display: none; }
-
-a.top {
-  color: red;
-  text-decoration: none; }
-
 .c-green {
   color: #76BF58; }
 
@@ -338,8 +280,13 @@ a.top {
 body {
   background: #E1D8CC;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  line-height: 2rem; }
+
+.c-content-heading {
+  font-size: 2.5rem; }
 
 a {
   color: #76BF58;
@@ -516,6 +463,22 @@ a:hover {
 .c-outputs__block:hover .c-outputs__block-effect {
   opacity: 0.5; }
 
+/*  PAGES  */
+.c-content__heading-first {
+  text-align: center; }
+
+.c-content__heading-next {
+  font-size: 2.2rem;
+  font-weight: normal; }
+
+.c-content__text {
+  text-align: justify; }
+
+.c-content__bg {
+  width: 90%;
+  background: #FFFFFF;
+  margin: auto; }
+
 @media (max-width: 740px) {
   /*  content  */
   .c-logo-utipa {
@@ -649,7 +612,8 @@ a:hover {
   background: #FFFFFF;
   text-align: center;
   line-height: 1.6;
-  padding: 1rem; }
+  padding: 1rem;
+  margin-top: 2rem; }
 
 .c-footer-up__header {
   margin-bottom: 0; }
