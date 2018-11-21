@@ -12,6 +12,7 @@
 /* white */
 /* green */
 /* grey */
+/* grey */
 .c-green {
   color: #76BF58; }
 
@@ -758,15 +759,14 @@ a:hover {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif; }
 
-/*  TECHNOLOGY Ôćô */
-.c-tech__heading-next {
-  color: #76BF58;
-  border-top: 1px solid #cccccc;
-  padding-top: 2rem; }
-
-.c-tech__technology {
+.c-page__block {
   display: flex;
   flex-direction: column; }
+
+/*  TECHNOLOGY Ôćô */
+.c-page__heading-next {
+  color: #76BF58;
+  text-transform: uppercase; }
 
 .c-tech__btn {
   background: #76BF58;
@@ -788,7 +788,8 @@ a:hover {
 .c-tech__filters {
   display: flex;
   align-items: center;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  padding-bottom: 1rem; }
 
 .c-tech__filter {
   color: #cccccc;
@@ -811,17 +812,53 @@ a:hover {
   border: 1px solid #cccccc; }
 
 /*  TECHNOLOGY ÔćĹ */
+/*  RESULTS Ôćô */
+.c-page__block {
+  border-top: 1px solid #cccccc;
+  padding-bottom: 2rem; }
+
+.c-page__block-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2rem; }
+  .c-page__block-field h3 {
+    width: 5rem; }
+  .c-page__block-field p {
+    margin-left: 1rem; }
+
+.c-results__input {
+  background: rgba(204, 204, 204, 0.2);
+  border: 1px solid #cccccc;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 20px;
+  box-sizing: border-box;
+  height: 3.5rem;
+  width: 30rem;
+  margin-left: 4rem; }
+
+.c-page__block-radio {
+  display: flex;
+  flex-direction: row; }
+  .c-page__block-radio input {
+    background: red;
+    color: blue; }
+  .c-page__block-radio label {
+    padding-left: 0.5rem; }
+
+/*  RESULTS ÔćĹ */
 @media (max-width: 740px) {
-  .c-tech__heading-next {
+  .c-page__heading-next {
     font-size: 20px; }
 
-  .c-tech__heading-next, .c-tech__technology p {
+  .c-page__heading-next, .c-page__block p {
     text-align: center; } }
 @media (min-width: 741px) {
-  .c-tech__heading-next {
+  .c-page__heading-next {
     font-size: 25px; }
 
-  .c-tech__heading-next, .c-tech__technology p {
+  .c-page__heading-next, .c-page__block p {
     text-align: left; } }
 
 /*# sourceMappingURL=main.css.map */
