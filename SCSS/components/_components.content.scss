@@ -355,6 +355,12 @@ a:hover{
     margin: 0.2rem;
     width: 25%;
   }
+  .c-outputs__heading{
+    font-size: 35px;
+  }
+  .c-outputs__block-heading{
+    font-size: 25px;
+  }
 }
 
 @media (min-width: $tablet+1px) and (max-width: 900px){
