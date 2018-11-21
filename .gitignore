@@ -1,3 +1,7 @@
 
 *.css
+<<<<<<< HEAD
 .idea/workspace.xml
+=======
+*.css.map
+>>>>>>> 9ea751920ae37e31f5ffac06272d3281401f9add

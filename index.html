@@ -9,11 +9,14 @@
     <!-- font monserrat --><link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 </head>
 <body>
-<header class="c-header">
+
+<header class="c-header test">
     <nav class="c-nav-up">
         <ul class="c-nav-up__ul">
             <li class="c-nav-up__li c-tablet-hide"><a href="#" class="c-nav__a-title">UTIPA.info</a></li>
-            <li class="c-nav-up__li c-computer-hide"><i class="fas fa-bars c-nav-hamburger"></i><a href="#" class="c-nav__a-title">UTIPA</a></li>
+            <li class="c-nav-up__li c-computer-hide">
+                <i class="fas fa-bars c-nav-hamburger"></i><a href="#" class="c-nav__a-title">UTIPA</a>
+            </li>
             <li class="c-nav-up__li c-tablet-hide"><a href="#" class="c-nav__a">
                 Přihlásit&nbsp;se</a> | <a href="#" class="c-nav__a">Registrace</a>
             </li>
@@ -26,6 +29,19 @@
         </li>
     </ul>
     <nav class="c-nav">
+        <ul class="c-nav__ul">
+            <li class="c-nav__li"><a href="#" class="c-nav__a c-active">Domů</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">O&nbsp;Indexu</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">Výsledky</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">Technologie</a></li>
+            <li class="c-nav__li">
+                <a href="#" class="c-nav__a">
+                    <img src="img/flag_EN.svg" alt="English/Czech" class="c-flag">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="c-nav-move c-tablet-hide ">
         <ul class="c-nav__ul">
             <li class="c-nav__li"><a href="#" class="c-nav__a c-active">Domů</a></li>
             <li class="c-nav__li"><a href="#" class="c-nav__a">O&nbsp;Indexu</a></li>
@@ -109,25 +125,38 @@
             <ul class="c-content__nmbrs-ul">
                 <li class="c-content__nmbrs-li">
                     <a href="#" class="c-content__nmbrs-a">
-                        <img src="img/Hodnoceni_kolecka/1-off.svg" alt="1" class="c-nmbrs__img">
+                        <div class="c-nmbrs__imgs">
+                                <img src="img/Hodnoceni_kolecka/1-off.svg" alt="1" class="c-nmbrs__img c-nmbrs__img-off">
+                                <img src="img/Hodnoceni_kolecka/1-on.svg" alt="1" class="c-nmbrs__img c-nmbrs__img-on">
+                        </div>
+
                         Vyplnit dotazník
                     </a>
                 </li>
                 <li class="c-content__nmbrs-li">
                     <a href="#" class="c-content__nmbrs-a">
-                        <img src="img/Hodnoceni_kolecka/2-off.svg" alt="2" class="c-nmbrs__img">
+                        <div class="c-nmbrs__imgs">
+                            <img src="img/Hodnoceni_kolecka/2-off.svg" alt="2" class="c-nmbrs__img c-nmbrs__img-off">
+                            <img src="img/Hodnoceni_kolecka/2-on.svg" alt="2" class="c-nmbrs__img c-nmbrs__img-on">
+                        </div>
                         Potvrdit email
                     </a>
                 </li>
                 <li class="c-content__nmbrs-li">
                     <a href="#" class="c-content__nmbrs-a">
-                        <img src="img/Hodnoceni_kolecka/3-off.svg" alt="3" class="c-nmbrs__img">
+                        <div class="c-nmbrs__imgs">
+                            <img src="img/Hodnoceni_kolecka/3-off.svg" alt="3" class="c-nmbrs__img c-nmbrs__img-off">
+                            <img src="img/Hodnoceni_kolecka/3-on.svg" alt="3" class="c-nmbrs__img c-nmbrs__img-on">
+                        </div>
                         Vytvořit heslo
                     </a>
                 </li>
                 <li class="c-content__nmbrs-li">
                     <a href="#" class="c-content__nmbrs-a c-nmbrs__a">
-                        <img src="img/Hodnoceni_kolecka/4-off.svg" alt="4" class="c-nmbrs__img">
+                        <div class="c-nmbrs__imgs">
+                            <img src="img/Hodnoceni_kolecka/4-off.svg" alt="4" class="c-nmbrs__img c-nmbrs__img-off">
+                            <img src="img/Hodnoceni_kolecka/4-on.svg" alt="4" class="c-nmbrs__img c-nmbrs__img-on">
+                        </div>
                         Zobrazit výsledky
                     </a>
                 </li>
@@ -138,30 +167,60 @@
         <h2 class="c-outputs__heading">Jaké výstupy je&nbsp;možné zobrazovat?</h2>
         <ul class="c-outputs__ul">
             <li class="c-outputs__li">
-                <a href="#"><img src="" alt="porovnání technologií"></a>
-                <h3>Porovníní technologií</h3>
-                <button class="c-outputs__li-btn">Více</button>
+                <a href="#" class="c-outputs__a">
+                    <div class="c-outputs__block">
+                        <img src="img/outputs/dots1.svg" alt="porovnání technologií" class="c-outputs__img">
+                        <div class="c-outputs__block-effect"></div>
+                    </div>
+                </a>
+                <div class="c-outputs__downblock">
+                    <h3>Porovníní technologií</h3>
+                    <button class="c-outputs__li-btn">Více</button>
+                </div>
             </li>
             <li class="c-outputs__li">
-                <a href="#"><img src="" alt="neznalost technologií"></a>
-                <h3>(Ne)znalost technologií</h3>
-                <button class="c-outputs__li-btn">Více</button>
+                <a href="#" class="c-outputs__a">
+                    <div class="c-outputs__block">
+                        <img src="img/outputs/graph2.svg" alt="neznalost technologií" class="c-outputs__img">
+                        <div class="c-outputs__block-effect"></div>
+                    </div>
+                </a>
+                <div class="c-outputs__downblock">
+                    <h3>(Ne)znalost technologií</h3>
+                    <button class="c-outputs__li-btn">Více</button>
+                </div>
             </li>
             <li class="c-outputs__li">
-                <a href="#"><img src="" alt="rozptyl hodnocení"></a>
-                <h3>Rozptyl hodnocení</h3>
-                <button class="c-outputs__li-btn">Více</button>
+                <a href="#" class="c-outputs__a">
+                    <div class="c-outputs__block">
+                        <img src="img/outputs/heatmap2.svg" alt="rozptyl hodnocení" class="c-outputs__img">
+                        <div class="c-outputs__block-effect"></div>
+                    </div>
+                </a>
+                <div class="c-outputs__downblock">
+                    <h3>Rozptyl hodnocení</h3>
+                    <button class="c-outputs__li-btn">Více</button>
+                </div>
             </li>
             <li class="c-outputs__li">
-                <a href="#"><img src="" alt="porovnání hodnocení"></a>
-                <h3>Porovnání hodnocení</h3>
-                <button class="c-outputs__li-btn">Více</button>
+                <a href="#" class="c-outputs__a">
+                    <div class="c-outputs__block">
+                        <img src="img/outputs/dots2.svg" alt="porovnání hodnocení" class="c-outputs__img">
+                        <div class="c-outputs__block-effect"></div>
+                    </div>
+                </a>
+                <div class="c-outputs__downblock">
+                    <h3>Porovnání hodnocení</h3>
+                    <button class="c-outputs__li-btn">Více</button>
+                </div>
             </li>
         </ul>
     </div>
 </main>
 
+
 <footer class="c-footer">
+
     <div class="c-footer-up">
         <h2 class="c-footer-up__header">Koordinátor</h2>
         <div>

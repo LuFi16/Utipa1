@@ -7,6 +7,7 @@
   text-align: center;
   line-height: 1.6;
   padding: 1rem;
+  margin-top: 2rem;
 }
 .c-footer-up__header{
   margin-bottom: 0;
@@ -35,6 +36,7 @@
 }
 .c-footer-down__nav-a{
   color: $color-text-invert;
+  transition: 400ms;
 }
 .c-footer-down__nav-a:hover{
   color: $color-utipa-blue;
@@ -49,6 +51,34 @@
 }
 .c-footer-down__badge{
   padding: 1rem;
+}
+.c-footer-down__badge:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.c-backtotop{
+  background: $color-utipa-green;
+  border-radius: 50px;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 2.5rem;
+}
+.c-backtotop-a{
+  color: $color-text-invert;
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
+  padding-top: 0.5rem;
+}
+.c-backtotop:hover{
+  background: $color-green-dark;
+  transition: .5s ease;
 }
 
 @media (max-width: $tablet) { //MOBILE & TABLET

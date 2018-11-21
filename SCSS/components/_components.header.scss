@@ -31,6 +31,7 @@
   color: $color-text;
   height: 100%;
   width: 100%;
+  transition: 400ms;    //effect delay
 }
 .c-nav__a:hover{
   color: $color-utipa-blue;
@@ -45,7 +46,13 @@
 .c-flag{
   height: 1.5rem;
   width: auto;
+  opacity: 0.5;
+  transition: 400ms;
 }
+.c-flag:hover{
+  opacity: 1;
+}
+
 
 /*  main - header (with img)  */
 .c-header__obr{
@@ -70,13 +77,16 @@
 
 }
 .c-header__btn{
-  background: $color-utipa-green;
+  background: $color-btn-header-bg;
   color: $color-text-invert;
   border: none;
   padding: 1rem 2rem 1rem 2rem;
-  font-weight: bold;
+  font-family: inherit;
   text-transform: uppercase;
   margin-top: 3rem;
+  box-shadow: 0 0 25px black;
+  transition: 400ms;
+  font-weight: bold;
 }
 .c-header__btn:hover{
   cursor: pointer;
@@ -129,7 +139,7 @@
     text-align: center;
   }
 
-  /*  nav (logian, registration) */
+  /*  nav (login, registration) */
   .c-nav-login{
     list-style-type: none;
     display: flex;
@@ -193,7 +203,27 @@
   .c-nav{
     font-weight: bold;
     text-align: center;
+    position: relative;
+    z-index: 999;
+    background: $color-background;
   }
+  .c-nav-up{
+    position: relative;
+    z-index: 999;
+  }
+  .c-nav-move {   //menu when scroll
+    font-weight: bold;
+    text-align: center;
+    background: $color-background;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    z-index: 900;
+    box-shadow: 0 2px 10px gray;
+  }
+
+
   .c-nav__ul{
     display: inline-flex;
     width: 100%;
@@ -203,7 +233,7 @@
     text-transform: uppercase;
   }
   .c-nav__li{
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
   }
 
   /*  main - header (with img) */
@@ -234,18 +264,8 @@
 
   }
   .c-header__btn{
-    background: $color-utipa-green;
-    color: $color-text-invert;
-    border: none;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
     font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 3rem;
-  }
-  .c-header__btn:hover{
-    cursor: pointer;
-    background: $color-green-dark;
   }
 }
 
