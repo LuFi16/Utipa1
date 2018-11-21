@@ -3,16 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <title>Přihlásit se</title>
+    <link rel="stylesheet" href="CSS/main.css" type="text/css">
+    <!-- font awesome --><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- font monserrat --><link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 </head>
 <body>
+
+<header class="c-header test">
+    <nav class="c-nav-up">
+        <ul class="c-nav-up__ul">
+            <li class="c-nav-up__li c-tablet-hide"><a href="#" class="c-nav__a-title">UTIPA.info</a></li>
+            <li class="c-nav-up__li c-computer-hide">
+                <i class="fas fa-bars c-nav-hamburger"></i><a href="#" class="c-nav__a-title">UTIPA</a>
+            </li>
+            <li class="c-nav-up__li c-tablet-hide"><a href="#" class="c-nav__a">
+                Přihlásit&nbsp;se</a> | <a href="#" class="c-nav__a">Registrace</a>
+            </li>
+            <li class="c-nav-up__li c-computer-hide"><i class="fas fa-ellipsis-v c-nav-dots"></i></li>
+        </ul>
+    </nav>
+    <ul class="c-nav-login c-computer-hide">
+        <li><a href="#" class="c-nav__a">
+            Přihlásit&nbsp;se</a> | <a href="#" class="c-nav__a">Registrace</a>
+        </li>
+    </ul>
+    <nav class="c-nav">
+        <ul class="c-nav__ul">
+            <li class="c-nav__li"><a href="#" class="c-nav__a c-active">Domů</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">O&nbsp;Indexu</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">Výsledky</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">Technologie</a></li>
+            <li class="c-nav__li">
+                <a href="#" class="c-nav__a">
+                    <img src="img/flag_EN.svg" alt="English/Czech" class="c-flag">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="c-nav-move c-tablet-hide ">
+        <ul class="c-nav__ul">
+            <li class="c-nav__li"><a href="#" class="c-nav__a c-active">Domů</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">O&nbsp;Indexu</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">Výsledky</a></li>
+            <li class="c-nav__li"><a href="#" class="c-nav__a">Technologie</a></li>
+            <li class="c-nav__li">
+                <a href="#" class="c-nav__a">
+                    <img src="img/flag_EN.svg" alt="English/Czech" class="c-flag">
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
 <main>
-    <h2>Přihlásit se</h2>
-    <form>
-        <input type="email" title="email" placeholder="Zadejte email">
-        <input type="password" title="heslo" placeholder="Zadejte heslo">
-        <input type="submit" value="Přihlásit se">
-    </form>
-    <a href="">Zapomenuté heslo?</a>
+    <div class="c-content__page">
+            <h2 class="c-form__main-heading">Přihlásit se</h2>
+            <form class="c-form">
+                <input type="email" title="email" placeholder="Zadejte email" class="c-form__input">
+                <input type="password" title="heslo" placeholder="Zadejte heslo" class="c-form__input">
+                <input type="submit" value="Přihlásit" class="c-form__btn">
+            </form>
+            <a href="">Zapomenuté heslo?</a>
+
+    </div>
 </main>
+
+<footer class="c-footer">
+
+    <div class="c-footer-up">
+        <h2 class="c-footer-up__header">Koordinátor</h2>
+        <div>
+            <a href="https://www.czu.cz/">Česká zemědělská univerzita v&nbsp;Praze</a><br />
+            <a href="https://www.czu.cz/">Centrum precizního zemědělství</a><br />  <!--  jaký odkaz?  -->
+            <address class="c-footer-up__address">Kamýcká 129, Praha, 165 21, Česká republika</address>
+            E-mail: <a href="mailto:info@utipa.info">info@utipa.info</a>
+        </div>
+
+        <h2 class="c-footer-up__header">Partneři</h2>
+        <p>
+            Slovak University of Agriculture in Nitra<br />
+            Tr. A. Hlinku 2, 949 76 Nitra, Slovakia<br />
+            <a href="http://www.uniag.sk/">www.uniag.sk</a>
+        </p>
+    </div>
+    <div class="c-footer-down">
+        <nav>
+            <ul class="c-footer-down__nav-ul">
+                <li class="c-footer-down__nav-li"><a href="index.html" class="c-footer-down__nav-a c-active">Domů</a></li>   <!--  add active class to other pages  -->
+                <li class="c-footer-down__nav-li"><a href="oindexu.html" class="c-footer-down__nav-a">O&nbsp;Indexu</a></li>
+                <li class="c-footer-down__nav-li"><a href="#" class="c-footer-down__nav-a">Výsledky</a></li>
+                <li class="c-footer-down__nav-li"><a href="#" class="c-footer-down__nav-a">Technologie</a></li>
+                <li class="c-footer-down__nav-li">
+                    <a href="#" class="c-footer-down__nav-a">
+                        <img src="img/flag_EN.svg" alt="English/Czech" class="c-flag">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <img src="img/GooglePlay-CZ.svg" alt="Google Play" class="c-footer-down__badge">  <!--  add images  -->
+        <img src="img/AppStore_CZ.svg" alt="App Store" class="c-footer-down__badge">
+        <p class="c-footer-down__text">
+            Návrh a&nbsp;metodika: <a href="http://kit.pef.czu.cz/" class="c-footer-down__a">
+            Katedra informačních technologií PEF</a><br />
+            Vývoj, provoz a&nbsp;propagace: <a href="https://www.csita.cz/" class="c-footer-down__a">
+            CSITA - Czech Society for Information Technology in Agriculture</a><span class="c-bold"> © 2018</span>
+        </p>
+    </div>
+</footer>
+
 </body>
 </html>
