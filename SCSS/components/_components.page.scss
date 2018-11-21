@@ -1,9 +1,8 @@
 
-/*  TECHNOLOGY  */
+/*  TECHNOLOGY ↓ */
 
 .c-tech__heading-next{
   color: $color-utipa-green;
-  font-size: 25px;
   border-top: 1px solid $color-separate-line;
   padding-top: 2rem;
 }
@@ -38,9 +37,15 @@
   justify-content: flex-end;
 }
 .c-tech__filter{
-  color: $color-utipa-green;
+  color: $color-separate-line;
   font-size: 50px;
   padding-right: 0.5rem;
+}
+.c-tech__filter:hover{
+  color: transparentize($color-utipa-green, 0.5);
+}
+.c-tech__filter:active{
+  color: $color-utipa-green;
 }
 .c-tech__filter-btn{
   background: $color-utipa-green;
@@ -49,6 +54,28 @@
   box-sizing: border-box;
   padding: 0.5rem 1rem 0.5rem 1rem;
   width: 20rem;
-  text-align: left;
+  //text-align: left;
   border: 1px solid $color-separate-line;
+}
+
+/*  TECHNOLOGY ↑ */
+
+@media (max-width: $tablet) { //MOBILE & TABLET
+
+  .c-tech__heading-next{
+    font-size: 20px;
+  }
+  .c-tech__heading-next, .c-tech__technology p{
+    text-align: center;
+  }
+}
+
+@media (min-width: $tablet+1px) { //COMPUTER
+  .c-tech__heading-next{
+    font-size: 25px;
+  }
+
+  .c-tech__heading-next, .c-tech__technology p{
+    text-align: left;
+  }
 }
