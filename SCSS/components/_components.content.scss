@@ -7,8 +7,8 @@ body{
   margin: 0;
   line-height: 2rem;
 }
-.c-content-heading{
-  font-size: 2.5rem;   //36px
+.c-content__heading{
+  font-size: 36px;
 }
 a{
   color: $color-utipa-green;
@@ -196,7 +196,7 @@ a:hover{
 
 /*  PAGES  */
 .c-content__heading-first{
-  text-align: center;
+  text-transform: uppercase;
 }
 .c-content__heading-next{
   font-size: 2.2rem;
@@ -237,7 +237,7 @@ a:hover{
     display: flex;
     flex-direction: column;
   }
-  .c-content-heading{
+  .c-content__heading{
     text-align: center;
     order: 2;
   }

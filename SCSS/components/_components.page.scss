@@ -1,0 +1,54 @@
+
+/*  TECHNOLOGY  */
+
+.c-tech__heading-next{
+  color: $color-utipa-green;
+  font-size: 25px;
+  border-top: 1px solid $color-separate-line;
+  padding-top: 2rem;
+}
+
+.c-tech__technology{
+  display: flex;
+  flex-direction: column;
+}
+
+.c-tech__btn{
+  background: $color-utipa-green;
+  border: none;
+  box-sizing: border-box;
+  font-weight: bold;
+  color: $color-text-invert;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 1rem;
+  width: 7rem;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  i{
+    font-size: 20px;
+  }
+}
+
+.c-tech__filters{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.c-tech__filter{
+  color: $color-utipa-green;
+  font-size: 50px;
+  padding-right: 0.5rem;
+}
+.c-tech__filter-btn{
+  background: $color-utipa-green;
+  color: $color-text-invert;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: 20rem;
+  text-align: left;
+  border: 1px solid $color-separate-line;
+}
