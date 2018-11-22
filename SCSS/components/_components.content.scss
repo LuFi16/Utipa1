@@ -7,9 +7,6 @@ body{
   margin: 0;
   line-height: 2rem;
 }
-.c-content-heading{
-  font-size: 2.5rem;   //36px
-}
 a{
   color: $color-utipa-green;
   text-decoration: none;
@@ -196,11 +193,12 @@ a:hover{
 
 /*  PAGES  */
 .c-content__heading-first{
-  text-align: center;
+  text-transform: uppercase;
 }
 .c-content__heading-next{
   font-size: 2.2rem;
   font-weight: normal;
+  padding-top: 1rem;
 }
 .c-content__text{
   text-align: justify;
@@ -237,7 +235,7 @@ a:hover{
     display: flex;
     flex-direction: column;
   }
-  .c-content-heading{
+  .c-content__heading{
     text-align: center;
     order: 2;
   }
@@ -269,7 +267,9 @@ a:hover{
   .c-content__moreinfo{
     order: 7;
   }
-
+  .c-content__heading{
+    font-size: 26px;
+  }
 
 }
 
@@ -345,6 +345,10 @@ a:hover{
     font-size: x-large;
   }
 
+
+  .c-content__heading{
+    font-size: 36px;
+  }
   /*  outputs  */
   .c-outputs__ul {
     width: 100%;
@@ -354,6 +358,12 @@ a:hover{
   .c-outputs__li {
     margin: 0.2rem;
     width: 25%;
+  }
+  .c-outputs__heading{
+    font-size: 35px;
+  }
+  .c-outputs__block-heading{
+    font-size: 25px;
   }
 }
 

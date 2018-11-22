@@ -1,0 +1,45 @@
+
+
+
+
+
+.c-content__page{
+  background: $color-content;
+  margin: 1rem;
+  padding: 3rem;
+}
+
+.c-form__main-heading{
+  font-size: 35px;
+}
+
+.c-form{
+  display: flex;
+  flex-direction: column;
+}
+.c-form__input{
+  box-sizing: border-box;
+  width: 30rem;
+  height: 3.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.c-form__btn{
+  box-sizing: border-box;
+  width: 10rem;
+  height: 3.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  background: $color-utipa-green;
+  color: $color-text-invert;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
