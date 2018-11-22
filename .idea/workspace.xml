@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a436ff4d-a36d-4adf-bd20-aa3bec949b78" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/components/_components.colors-widths.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/components/_components.colors-widths.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/components/_components.content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/components/_components.content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/components/_components.footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/components/_components.footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oindexu.html" beforeDir="false" afterPath="$PROJECT_DIR$/oindexu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
-    </list>
+    <list default="true" id="a436ff4d-a36d-4adf-bd20-aa3bec949b78" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +23,8 @@
       <file leaf-file-name="_components.header.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SCSS/components/_components.header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="251" column="3" lean-forward="true" selection-start-line="251" selection-start-column="3" selection-end-line="251" selection-end-column="3" />
+            <state relative-caret-position="167">
+              <caret line="247" column="3" lean-forward="true" selection-start-line="247" selection-start-column="3" selection-end-line="247" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -228,12 +219,12 @@
       <workItem from="1541679921795" duration="11217000" />
       <workItem from="1541694556345" duration="567000" />
       <workItem from="1542193422068" duration="16424000" />
-      <workItem from="1542281098308" duration="4128000" />
+      <workItem from="1542281098308" duration="4248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91999000" />
+    <option name="totallyTimeSpent" value="92119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -514,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SCSS/components/_components.header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="251" column="3" lean-forward="true" selection-start-line="251" selection-start-column="3" selection-end-line="251" selection-end-column="3" />
+        <state relative-caret-position="167">
+          <caret line="247" column="3" lean-forward="true" selection-start-line="247" selection-start-column="3" selection-end-line="247" selection-end-column="3" />
         </state>
       </provider>
     </entry>
